@@ -1,0 +1,112 @@
+/* BASE */
+@import url(http://fonts.googleapis.com/css?family=Terminal+Dosis);
+html,body{font-family: 'Terminal Dosis', sans-serif;font-size:16px;margin:0;padding:0;}
+
+p{margin:0px 10px 20px 0px;}
+p:last-child{margin:0px 0px 0px 0px;}
+
+h1,h2,h3,h4,h5,h6{margin:-05px 0px 10px 0px;}
+
+div:after, ol:after, form:after, ul:after, dl:after {content:".";display:block;clear:both;visibility:hidden;height:0;overflow:hidden;}
+
+/* FRAMEWORK */
+.fr{float:right;}
+.fl{float:left;}
+.m0a{margin:0 auto;}
+.oh{overflow:hidden;}
+.pr{position:relative;}
+.pa{position:absolute;}
+.pd10{padding:10px;}
+.pd20{padding:10px 20px;}
+.mgt10{margin-top:10px;}
+.mgt20{margin-top:20px;}
+.mgb10{margin-bottom:10px;}
+.mgb20{margin-bottom:20px;}
+.nomg{margin-left:20px;padding-left:0px;}
+.tc{text-align:center;}
+.ttmai{text-transform:uppercase;}
+.ttman{text-transform:lowercase;}
+.i2t{margin:25px 8px 8px 0px;box-shadow:0px 0px 10px 2px rgba(0, 0, 0, 0.25);}
+
+.imgl{margin:0px 10px 0px 0px;}
+.imgr{margin:0px 0px 0px 10px;}
+
+.nosel{
+-webkit-user-select: none;  /* Chrome all / Safari all */
+-moz-user-select: none;     /* Firefox all */
+-ms-user-select: none;      /* IE 10+ */
+
+/* No support for these yet, use at own risk */
+-o-user-select: none;
+user-select: none;  
+}
+
+.meio{width:990px;margin:0 auto;}
+
+/* CONTENT */
+
+body{
+background:url(../img/tulips4.jpg);
+/*background:#000;*/
+}
+
+#topo{margin:20px 0px 20px 0px;}
+#logo{padding:50px 20px;background:#fff;}
+#fibox{width:580px;padding:45px 20px 46px 20px;background:url(../img/brasil.jpg) center center !important;}
+#flag{color:#fff;text-shadow: 2px 2px 1px rgba(50, 50, 50, 0.8);}
+
+#menu ul{padding:10px;margin:0px;text-align:center;}
+#menu ul li{display:inline;}
+#menu ul li a:link{color:#000;text-decoration:none;padding:10px;}
+#menu ul li a:hover{color:#fff;border-bottom:0px solid blue;background:#1240AB;padding:10px;box-shadow:0px 5px 20px 0px rgba(0, 0, 0, 0.5);font-weight:bold;}
+
+#rodape{background:rgba(80, 80, 80, 0.9);color:#fff;padding:10px 0px;}
+
+conteudo .meio{background:red;}
+#logo,#fibox,#menu,.box div,.box2 div,.box3 div{
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+	background:rgba(250, 250, 250, 0.9);
+}
+
+.botshad{
+	position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+}
+.botshad:after{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 40px rgba(0,0,0,0.8);
+    box-shadow:0 0 40px rgba(0,0,0,0.8);
+    bottom:0px;
+    left:10%;
+    right:10%;
+    width:80%;
+    height:50%;
+    -moz-border-radius:100%;
+    border-radius:100%;
+}
+
+.box div,.box2 div,.box3 div{padding:50px;position:relative;}
+
+.boxes .box div{width:223px;float:left;margin-right:10px;}
+.boxes .box div:last-child{margin-right:0px;}
+.boxes .box2 div{width:390px;float:left;margin-right:10px;}
+.boxes .box2 div:last-child{margin-right:0px;}
+.boxes .box3 div{width:890px;float:left;}
+
+.resum{height:060px;overflow:hidden;}
+.resum:hover{cursor:pointer;color:#888;}
+/*.resum:active{height:auto;}*/
+.notify{position:absolute;bottom:10px;right:20px;font-weight:bold;font-size:12px;}
+
+.social{padding:0!important;border:0!important;box-shadow:none!important;}
+.social a{padding:10px; margin:5px;}
+
+form input[type^="submit"]{width:;border:1px solid #ccc;padding:5px 30px;margin-top:7px;}
+form input[type^="text"]{width:150px;border:1px solid #ccc;padding:5px 10px;}
+form textarea{width:325px;border:1px solid #ccc;padding:5px 10px;}
+form input,form textarea{font-family: 'Terminal Dosis', sans-serif;font-size:14px;}
